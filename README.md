@@ -1,4 +1,5 @@
-# AcademicModuleUsingSQL
+#StudentAcademicManagementSystem
+This project is based on core Database Management System (DBMS) concepts to efficiently manage student academic data. It uses the Entity-Relationship (ER) model where tables like STUDENT, STUDENT_SEMESTER, STUDENT_MARKS, and SEMESTER_SUMMARY represent entities, and relationships such as one-to-many (one student having multiple semesters and subjects) are established using primary and foreign keys. Normalization is applied to reduce data redundancy by separating student, semester, and marks data into different tables. SQL joins are used to retrieve combined data from multiple tables. The project also implements stored procedures for reusable logic and triggers for automatic calculations like SGPA, percentage, and result updates. Aggregate functions such as SUM are used for computing totals, while constraints like PRIMARY KEY, FOREIGN KEY, and NOT NULL ensure data integrity and consistency. Overall, the system demonstrates structured data organization, relationship management, and automation in a real-world academic database scenario.
 This project is a Student Academic Database System built using SQL Server. 
 It manages:
 1. Student Information
